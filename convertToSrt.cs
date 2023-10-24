@@ -8,8 +8,8 @@ class Program
 {
     static void Main(string[] args)
     {
+        // binフォルダ内部
         string folderPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "txt");
-        // 変換したいフォルダのパスを指定してください
         ConvertTxtToSrtInFolder(folderPath);
     }
 
