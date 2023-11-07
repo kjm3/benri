@@ -3,7 +3,7 @@ import csv
 from moviepy.editor import VideoFileClip
 
 # 対象のフォルダ
-target_folder = "./mov"
+target_folder = "./"
 
 # 出力するCSVファイル名
 output_csv = "output.csv"
